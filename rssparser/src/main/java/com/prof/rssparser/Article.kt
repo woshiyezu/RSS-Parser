@@ -29,6 +29,7 @@ data class Article(
         var audio: String? = null,
         var sourceName: String? = null,
         var sourceUrl: String? = null,
+        var duration: String? = null,
         private var _categories: MutableList<String> = mutableListOf()
 ) {
 
